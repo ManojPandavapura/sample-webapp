@@ -9,6 +9,7 @@
     <packaging>war</packaging>
 
     <name>Sample Web Application</name>
+         
     <description>A simple Java web application for educational purposes</description>
 
     <properties>
@@ -18,7 +19,7 @@
     </properties>
 
     <dependencies>
-        <!-- Servlet API for web development -->
+        <!-- Servlet API for web development  -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -58,7 +59,7 @@
                      
             </plugin>
                  
-            <!-- Maven War Plugins -->
+            <!-- Maven War Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
